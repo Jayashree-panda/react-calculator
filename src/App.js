@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import update from 'immutability-helper'
 import math from 'mathjs'
 import './App.css'
-import Display from './Display/Display'
-import Button from './Button/Button'
-import Buttons from './Buttons/Buttons'
+import Display from './components/Display/Display'
+import Button from './components/Button/Button'
+import Buttons from './components/Buttons/Buttons'
 
 class App extends Component {
   constructor() {
